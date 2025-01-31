@@ -1,6 +1,11 @@
 
 public class Main {
 
+    /**
+     * Главный метод программы.
+     *
+     * @param args аргументы командной строки
+     */
     public static void main(String[] args) {
         Car car1 = new Car();
         Car car2 = new Car("123xx", "Jaguar", 1990, 4, 2199, 2, "Красный", "Кабриолет");

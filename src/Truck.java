@@ -1,14 +1,24 @@
+
+/**
+ * Класс Truck представляет грузовик.
+ */
+
 public class Truck extends Vehicle {
 
     private double capasity;
     private double fillCapasity;
 
 
-    public Truck(String number, String brand, int year, int numberOFWheels, int motor, int numberOfDoors, double capasity,double fillCapasity) {
+    public Truck(String number, String brand, int year, int numberOFWheels, int motor, int numberOfDoors, double capasity, double fillCapasity) {
         super(number, brand, year, numberOFWheels, motor, numberOfDoors);
         this.capasity = capasity;
-        this.fillCapasity=fillCapasity;
+        this.fillCapasity = fillCapasity;
     }
+
+
+    /**
+     * Метод, который выводит информацию о движении грузовика.
+     */
 
     @Override
     public void drive() {

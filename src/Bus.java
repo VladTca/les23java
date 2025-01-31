@@ -1,3 +1,8 @@
+
+/**
+ * Класс Bus представляет автобус.
+ */
+
 public class Bus extends Vehicle {
 
     private int passengerAmount;
@@ -7,10 +12,13 @@ public class Bus extends Vehicle {
         this.passengerAmount = passengerAmount;
     }
 
+    /**
+     * Метод, который выводит информацию о движении автобуса.
+     * Выводит сообщение о количестве перевозимых пассажиров.
+     */
     @Override
     public void drive() {
         System.out.printf("Поехали на автобусе! Перевозится %d пассажиров\n", passengerAmount);
     }
-
 
 }
